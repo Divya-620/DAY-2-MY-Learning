@@ -19,14 +19,22 @@ Quick definitions:
 METHODS IN PYTHON
 =============================
 **Length**: len()
+
+
 **Split**: 
  **syntax**:-str.split()
  ->Breaks a string into a list
+
+ 
 **Slicing**: [start:stop:step]
 ->stop is excluded, and negative indexes count from the end.
+
+
 **ord()**: returns the Unicode (ASCII) integer code of a single character.
  ->It only accepts one character. ord("ab") raises a TypeError.
  ->Handy to remember: 'A'–'Z' = 65–90, 'a'–'z' = 97–122, '0'–'9' = 48–57.
  **syntax**:- var=ord("letter")
+
+ 
 **Replace**:returns a new string with old replaced by new. Strings are immutable, so the original doesn't change.
 **syntax**:-var.replace("letter")
